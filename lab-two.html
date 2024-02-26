@@ -3,6 +3,11 @@
     <head>
         <title>SD LAB 2</title>
         <style>
+            main {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
             header
             {
                 background-color: black;
@@ -42,6 +47,55 @@
             {
                 display: flex;
             }
+
+            .sec1{
+                display: inline-flex;
+                align-items: center;
+                flex-direction: column;
+                margin-bottom: 30px;
+               
+            }
+
+            .secaa
+            {
+                display: inline-flex;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            .secaa1
+            {
+                display: flex;
+                margin-bottom: 100px ;
+                
+            }
+
+            .secaa1 h2
+            {
+                margin: 0px;
+            }
+
+            .sec2, .sec3
+            {
+                display: inline-flex;
+                align-items: center;
+                flex-direction: column;
+                border: 14px;
+                border: 2px solid lightgray; 
+                padding: 20px;
+
+            }
+            img
+            {
+                width: 600px;
+                height: 400px;
+            }
+
+            p{
+                font-size: small;
+            }
+            
+            
         </style>
     </head>
     <body>
@@ -62,37 +116,48 @@
             </nav>
         </header>
         <main>
-            <section>
+            <article class="sec1">
+            
                 <h2>
                     About Us
                 </h2>
                 <p>
                     we are a company dedicated to providing excellent services to our customers.
                 </p>
-                <img src="" alt="">
+                <img src="pic1.jpeg" alt="">
+            </article>
 
-            </section>
-            <section class="s2">
-                <h2>Our Services</h2>
-                <section>
-                    <h2>
-                        Web Development
-                    </h2>
-                    <p>
-                        We specializes in creating reponsive and user-friendly websites.
-                    </p>
-                    <img src="" alt="">
-                </section>
-                <section>
-                    <h2>
-                        Graphics Design
-                    </h2>
-                    <p>
-                        Our talented designers can bring your ideas to life with stunning visuals.
-                    </p>
-                    <img src="" alt="">
-                </section>
-            </section>
+            <article class="secaa">
+                <h2>
+                    Our Services
+                </h2>
+                
+                <article class="secaa1">
+                    <article class="sec2">
+            
+                        <h2>
+                            Web Development
+                        </h2>
+                        <p>
+                            we specialize in creating responsive and user-friendly websites.
+                        </p>
+                        <img src="WEb.jpg" alt="">
+                    </article>
+        
+                    <article class="sec3">
+                    
+                        <h2>
+                            Graphic Design
+                        </h2>
+                        <p>
+                            Our designers can bring your ideas to life with stunning visuals.
+                        </p>
+                        <img src="graphica_design.jpeg" alt="">
+                    </article>
+                </article>
+            </article>
+            
+            
         </main>
         <footer >
             <p class="footer_para">
